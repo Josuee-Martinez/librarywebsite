@@ -1,0 +1,52 @@
+.logo {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 1em;
+  color: #4fdba6;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 1em;
+}
+
+nav a {
+  font-weight: 900;
+  text-decoration: none;
+  padding: 0.5em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #4fdba6;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #ddd;
+}
+
+@media (min-width: 60rem) {
+  .logo {
+    float: left;
+  }
+
+  nav {
+    float: right;
+  }
+}
