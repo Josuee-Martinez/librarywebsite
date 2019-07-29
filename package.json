@@ -1,0 +1,15 @@
+{
+  "name": "library-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "author": "josue",
+  "license": "ISC",
+  "homepage": "https://Josuee-Martinez.github.io/librarywebsite",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
